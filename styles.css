@@ -7,7 +7,6 @@ body{
     font-family: "Rubik", sans-serif;
     font-style: normal;
     font-size: 18px;
-    /* overflow: hidden; */
 }
 main{
     background-color: hsl(226, 43%, 10%);
@@ -120,8 +119,14 @@ background-color: hsl(264, 64%, 52%);
     justify-content: space-between;
     align-items: center;
 }
-.top_of_item a{
-    line-height: 4px;
+.point{
+    width: 21px;
+    height: 5px;
+    background-image: url(./images/icon-ellipsis.svg);
+    background-size: contain;
+}
+.point:hover{
+    cursor: pointer;
 }
 h2{
     font-size: 56px;

@@ -25,7 +25,7 @@ buttonsAll.forEach(button => {
     button.classList.add('active');
   })
 })
-
+buttonsAll[0].classList.add('active');
 fetch('./data.json') 
   .then(response => {
     if (!response.ok) {
